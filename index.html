@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>ВАТРА | Ресторан живого вогню</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header fixed-top">
+    <div class="branding d-flex align-items-center">
+      <div class="container position-relative d-flex align-items-center justify-content-between">
+        <a href="index.html" class="logo d-flex align-items-center">
+          <h1 class="sitename">ВАТРА</h1>
+        </a>
+
+        <nav id="navmenu" class="navmenu">
+          <ul>
+            <li><a href="#hero" class="active">Головна</a></li>
+            <li><a href="#about">Про нас</a></li>
+            <li><a href="#menu">Меню</a></li>
+            <li><a href="#gallery">Галерея</a></li>
+            <li><a href="#book-a-table">Бронювання</a></li>
+          </ul>
+          <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+
+    <section id="hero" class="hero section">
+      <div class="hero-background">
+        <video autoplay muted loop style="width: 100%; height: 100%; object-fit: cover;">
+          <source src="assets/img/hero-bg.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <div class="overlay"></div>
+      </div>
+
+      <div class="container hero-content">
+        <div class="row align-items-center">
+          <div class="col-lg-7">
+            <div class="hero-text" data-aos="fade-up">
+              <span class="tagline">Смак історії</span>
+              <h1 class="hero-title">ВАТРА: Кухня живого вогню</h1>
+              <p class="hero-description">Справжня українська кухня без електричних плит. Тільки піч, вугілля та дим.</p>
+              <div class="hero-actions">
+                <a href="#book-a-table" class="btn btn-primary">Забронювати місце</a>
+                <a href="#menu" class="btn btn-outline">Дивитися меню</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about section">
+      <div class="container" data-aos="fade-up">
+        <div class="row g-5 align-items-center">
+          <div class="col-lg-6">
+            <div class="about-content">
+              <span class="tagline-sm">Наша філософія</span>
+              <h2>Справжня їжа з димком, приготована з душею</h2>
+              <p class="fst-italic">Ми не граємо в музей. Ми готуємо так, як це робили наші пращури, але з сучасною подачею.</p>
+              <p>У центрі нашого залу — велика піч. Ми випікаємо власний хліб на заквасці, томимо м'ясо по 12 годин та коптимо форель на фруктовій трісці. Жодних напівфабрикатів — тільки локальні фермерські продукти.</p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="about-gallery">
+              <img src="assets/img/about-meat.png" class="img-fluid rounded" alt="М'ясо на вогні">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="menu" class="menu section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Наше Меню</h2>
+        <p>Страви, народжені у вогні</p>
+      </div>
+
+      <div class="container" data-aos="fade-up">
+        <div class="isotope-layout" data-layout="masonry" data-sort="original-order">
+          
+          <div class="menu-filters isotope-filters mb-5">
+          </div>
+
+          <div class="row gy-4 isotope-container">
+
+            <div class="col-lg-6 isotope-item filter-meat">
+              <div class="menu-item d-flex justify-content-between">
+                <div class="menu-content">
+                  <a href="#">Стейк "Ватра"</a><span>450 ₴</span>
+                  <div class="ingredients">Українська яловичина витримки, смажена на відкритому вугіллі.</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 isotope-item filter-oven">
+              <div class="menu-item d-flex justify-content-between">
+                <div class="menu-content">
+                  <a href="#">Банош з печі</a><span>220 ₴</span>
+                  <div class="ingredients">Кукурудзяна каша на вершках з бринзою та шкварками.</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 isotope-item filter-meat">
+              <div class="menu-item d-flex justify-content-between">
+                <div class="menu-content">
+                  <a href="#">Ребра дикого кабана</a><span>380 ₴</span>
+                  <div class="ingredients">Томлені в медовому соусі, подаються з печеною картоплею.</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 isotope-item filter-drinks">
+              <div class="menu-item d-flex justify-content-between">
+                <div class="menu-content">
+                  <a href="#">Хріновуха домашня</a><span>80 ₴</span>
+                  <div class="ingredients">Настоянка власного виробництва (50мл).</div>
+                </div>
+              </div>
+            </div>
+
+             <div class="col-lg-6 isotope-item filter-oven">
+              <div class="menu-item d-flex justify-content-between">
+                <div class="menu-content">
+                  <a href="#">Вареники з качкою</a><span>260 ₴</span>
+                  <div class="ingredients">Тісто на заквасці, начинка з томленої качки.</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6 isotope-item filter-drinks">
+              <div class="menu-item d-flex justify-content-between">
+                <div class="menu-content">
+                  <a href="#">Узвар копчений</a><span>60 ₴</span>
+                  <div class="ingredients">З груші-дички, сушеної в печі.</div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="gallery section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Атмосфера</h2>
+        <p>Фото з нашого ресторану</p>
+      </div>
+      <div class="container" data-aos="fade-up">
+        <div class="row g-3">
+          <div class="col-lg-4 col-md-6">
+            <div class="gallery-item">
+              <a href="assets/img/gallery-1.png" class="glightbox"><img src="assets/img/gallery-1.png" class="img-fluid" alt=""></a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="gallery-item">
+              <a href="assets/img/gallery-2.png" class="glightbox"><img src="assets/img/gallery-2.png" class="img-fluid" alt=""></a>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="gallery-item">
+              <a href="assets/img/gallery-3.png" class="glightbox"><img src="assets/img/gallery-3.png" class="img-fluid" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="book-a-table" class="book-a-table section">
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Бронювання</h2>
+        <p>Забронюйте стіл біля вогню</p>
+      </div>
+      <div class="container" data-aos="fade-up">
+        <form action="#" method="post" class="php-email-form">
+          <div class="row gy-4">
+            <div class="col-lg-4 col-md-6">
+              <input type="text" name="name" class="form-control" placeholder="Ваше Ім'я" required>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <input type="email" class="form-control" name="email" placeholder="Email" required>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <input type="text" class="form-control" name="phone" placeholder="Телефон" required>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <input type="date" name="date" class="form-control" required>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <input type="time" class="form-control" name="time" required>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <input type="number" class="form-control" name="people" placeholder="# Гостей" required>
+            </div>
+            <div class="col-lg-12">
+              <textarea class="form-control" name="message" rows="5" placeholder="Коментар"></textarea>
+            </div>
+            <div class="text-center"><button type="submit">Забронювати</button></div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <footer id="footer" class="footer dark-background">
+    <div class="container text-center">
+      <a href="index.html" class="logo d-flex align-items-center justify-content-center mb-3">
+        <h1 class="sitename">ВАТРА</h1>
+      </a>
+      <p class="mb-3">Вулиця Лісова, 25, Львів<br>+38 (097) 000 00 00</p>
+      <div class="social-links d-flex justify-content-center">
+        <a href="#"><i class="bi bi-instagram"></i></a>
+        <a href="#"><i class="bi bi-facebook"></i></a>
+      </div>
+      <div class="copyright mt-4">
+        &copy; <span>ВАТРА</span>. Всі права захищені.
+      </div>
+    </div>
+  </footer>
+
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <div id="preloader"></div>
+
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/js/main.js"></script>
+
+</body>
+</html>
